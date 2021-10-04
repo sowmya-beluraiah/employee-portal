@@ -2,7 +2,7 @@
 This project contains a small Employee Portal project.
 This is a spring MVC Maven project
 
-## Fucntionalities supported
+# Fucntionalities supported
 1.  Project contains a employee DB (refer to [db-schema]())
 2. Allows CRUD operations on employee table 
 3. Get Reportee's - Gets all employees who are directly or indirectly reported to a given emp ID
@@ -19,9 +19,12 @@ SpringBoot, JAVA, Bootstrap, JQuery, H2 DB
 5. When project starts, Go to browser and load "http://localhost:8080"
 6. To access H2 DB and see table contents, load "http://localhost:8080/h2-console"
 
+# DB Schema
+Refer to [db-schema]()
+
 # Design
 1. HLD document [hld]()
 2. LLD document [lld]()
 
-#Video
+# Video
 Refer to [demo-video]()
