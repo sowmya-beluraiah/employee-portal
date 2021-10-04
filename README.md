@@ -27,4 +27,4 @@ Refer to [db-schema](https://github.com/sowmya-brm/EmployeePortal/blob/master/db
 2. LLD document [lld](https://github.com/sowmya-brm/EmployeePortal/blob/master/design/LLD.PNG)
 
 # Video
-Refer to [demo-video]()
+Refer to [demo-video](https://drive.google.com/file/d/1SMToz2_ahyVfcLZjdfFq8avmOF_rr4OS/view?usp=sharing)
