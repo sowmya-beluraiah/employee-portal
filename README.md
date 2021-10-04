@@ -3,7 +3,7 @@ This project contains a small Employee Portal project.
 This is a spring MVC Maven project
 
 # Fucntionalities supported
-1.  Project contains a employee DB (refer to [db-schema]())
+1.  Project contains a employee DB (refer to [db-schema](https://github.com/sowmya-brm/EmployeePortal/blob/master/db-schema.md))
 2. Allows CRUD operations on employee table 
 3. Get Reportee's - Gets all employees who are directly or indirectly reported to a given emp ID
 4. Get Employee Hierarchy - Gets managerial hierarchy above a given emp ID and display it using breadcrumbs
@@ -20,11 +20,11 @@ SpringBoot, JAVA, Bootstrap, JQuery, H2 DB
 6. To access H2 DB and see table contents, load "http://localhost:8080/h2-console"
 
 # DB Schema
-Refer to [db-schema]()
+Refer to [db-schema](https://github.com/sowmya-brm/EmployeePortal/blob/master/db-schema.md)
 
 # Design
-1. HLD document [hld]()
-2. LLD document [lld]()
+1. HLD document [hld](https://github.com/sowmya-brm/EmployeePortal/blob/master/design/HLD.PNG)
+2. LLD document [lld](https://github.com/sowmya-brm/EmployeePortal/blob/master/design/LLD.PNG)
 
 # Video
 Refer to [demo-video]()
