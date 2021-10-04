@@ -40,7 +40,7 @@ public class EmployeeService {
 	public EmployeeDTO createEmployee(EmployeeDTO empDTO) {
 		Employee meta = new Employee();
 		Employee mgr = empRepo.findbyName(empDTO.getReporting_path().toLowerCase());
-		
+
 		BeanUtils.copyProperties(empDTO, meta);
 		if(mgr.getReporting_path() != null) {
 			meta.setReporting_path(mgr.getReporting_path()+"/"+mgr.getId());

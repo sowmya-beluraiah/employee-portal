@@ -47,7 +47,7 @@ function deleteNode(id){
       error: function (e) {
         console.log("There was an error with your request...");
         console.log("error: " + JSON.stringify(e));
-        alert("Request failed!!");
+        alert("Employee not found!!");
       }
     });
     
@@ -158,7 +158,7 @@ function getHierarchy(){
       error: function (e) {
         console.log("There was an error with your request...");
         console.log("error: " + JSON.stringify(e));
-        alert("Request failed!!");
+        alert("Employee not found!!");
       }
     });
 }
@@ -228,7 +228,7 @@ function getEmployee(){
       error: function (e) {
         console.log("There was an error with your request...");
         console.log("error: " + JSON.stringify(e));
-        alert("Request failed!!");
+        alert("Employee not found!!");
       }
     });
 }
